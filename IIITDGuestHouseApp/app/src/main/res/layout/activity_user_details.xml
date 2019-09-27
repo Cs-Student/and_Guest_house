@@ -9,6 +9,7 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:backgroundTint="@color/colorPrimaryDark"
         android:hint="Name"
         android:inputType="textPersonName" />
@@ -16,14 +17,14 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:backgroundTint="@color/colorPrimaryDark"
         android:hint="Email"
         android:inputType="textEmailAddress" />
 
     <EditText
         android:layout_width="fill_parent"
+        android:layout_marginTop="15dp"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
         android:hint="Employee No"
@@ -31,6 +32,7 @@
 
     <RadioGroup
         android:id="@+id/radio_group"
+        android:layout_marginTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -53,6 +55,7 @@
     </RadioGroup>
 
     <EditText
+        android:layout_marginTop="8dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
@@ -60,6 +63,7 @@
         android:inputType="text" />
 
     <EditText
+        android:layout_marginTop="15dp"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/colorPrimaryDark"
@@ -69,10 +73,11 @@
 
 
     <Button
+        android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:background="@color/colorPrimaryDark"
+        android:background="#3bb"
         android:elevation="4dp"
         android:paddingLeft="70dp"
         android:paddingRight="70dp"
